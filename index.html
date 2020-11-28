@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>My Portfolio</title>
+     <link rel="stylesheet" href="styles.css" />
+     <link rel="stylesheet" href="main.css">
+   </head> 
+   <body>
+    
+          <header class="header">  
+            <a href="home" class="logo">
+              <img src="img/Logo.svg" alt="logo">
+            </a> 
+               <ul class="menu">
+                      <li><a class="menu selected" href="#home" onclick="selectMenuOption(this)">Home</a></li>
+                      <li><a class="menu" href="#services" onclick="selectMenuOption(this)">Services</a></li>   
+                      <li><a class="menu" href="#works" onclick="selectMenuOption(this)">My Works</a></li>
+                      <li><a class="menu" href="#talk" onclick="selectMenuOption(this)">Let's talk</a></li>  
+                      
+                </ul>          
+          </header> 
+          
+          <main> 
+              <article id="home">   
+                      <div class="home">
+                        <div class="part1">
+                            <div class="presentation">
+                                <h2 class="presentation__saludo">Hello World!, I'm</h2>
+                                <h1 class="presentation__name"><u class="name">Ana</u> Liz</h1>
+                                <h2 class="presentation__description">A young designer <br> with crazy for mobile <br> & web design.</h2>
+                                <h6 class="presentation__follow">Follow Me on:</h6>
+                            </div>
+                            <nav class="image__icon">
+                                <a href="https://web.facebook.com/analiz.leoncosanatan/" target ="_blank"><img class="icon" src="img/facebook.png" alt="facebook"></a>
+                                <a href="https://www.instagram.com/analizlc20/?hl=es-la" target ="_blank"><img class="icon icon--2" src="img/instagram.png" alt="instagram"></a>
+                                <a href="https://github.com/analizlc20" target ="_blank"><img class="icon icon--2" src="img/github.svg" alt="git hub"></a>
+                                <a href="https://api.whatsapp.com/send?phone=51933791986&text=Hola%20AnaLiz😁" target="_blank"><img  class="icon icon--2" src="img/whatsapp.png" alt="whatsapp"> </a> 
+                            </nav>
+                            <nav>
+                              <a class="button" href="https://drive.google.com/file/d/1Y6NZHGdGunSTqPAB5RcX-Ywl3C-hdkBD/view?usp=sharing" target="_blank">P O R T F O L I O</a>
+                            </nav>
+                          </div>
+                          <div class="part2">
+                                <img class="image__personal" src="img/yo.png" alt="personal image">
+                            </div>
+                      </div>
+                </article><hr>
+
+                <article id="services">    
+                  <h2 class="title"> My services</h2>     
+                    <ul class="content">                 
+                        <li class="box">
+                          <div class="box__info">
+                            <img class="image__box" src="img/java-script.png" alt="java image">
+                            <h4 class="box__info box__info--content1"> Frontend Developer JavaScript Junior</h4>
+                            <h6 class="box__info box__info--content2">Desktop application developer in Java JDK 8</h6>
+                          </div>
+                          <img class="check" src="img/check2.svg" alt="check image">
+                        </li>
+                      
+                        <li class="box">
+                          <div class="box__info">
+                            <img class="image__box" src="img/sql.jpg" alt="sql image">
+                              <h4 class="box__info box__info--content1">Sql Data Analyst</h4>
+                              <h6 class="box__info box__info--content2">
+                                Problem solving with High Abstraction in logical & physical model - sql</h6>
+                          </div>
+                          <img class="check" src="img/check2.svg" alt="check image">
+                        </li>
+                      
+                        <li class="box">
+                          <div class="box__info">
+                            <img class="image__box" src="img/web.png" alt="frontend image">
+                              <h4 class="box__info box__info--content1">Web Developer Frontend</h4>
+                              <h6 class="box__info box__info--content2">
+                                Junior Web Designer and Developer - Frontend
+                              </h6>
+                          </div>
+                          <img class="check" src="img/check2.svg" alt="check image">
+                        </li>
+                      </ul>
+                </article><hr>
+
+                <article id="works">
+                  <h2 class="title">My works</h2>
+                    <ul class="content">
+                       
+                        <li class="box--work">
+                            <div class="box__info box__info--work">
+                                <img class="image__box image__box--work" src="img/work1.jpg" alt="work image">
+                                <h4 class="box__info box__info--content1">Dog Shop</h4>
+                                <h6 class="box__info box__info--content2">Dog Food and Accessories Store</h6>
+                            </div>
+                        </li>
+                        <li class="box--work">
+                            <div class="box__info box__info--work">
+                                <img class="image__box image__box--work" src="img/challenge02.PNG" alt="work image">
+                                <h4 class="box__info box__info--content1">Challenge-02</h4>
+                                <h6 class="box__info box__info--content2">Maquetación Web en Html</h6>
+                            </div>
+                        </li>
+                        <li class="box--work">
+                            <div class="box__info box__info--work">
+                                <img class="image__box image__box--work" src="img/challenge03.PNG" alt="work image">
+                                <h4 class="box__info box__info--content1">Challenge-03</h4>
+                                <h6 class="box__info box__info--content2">Maquetación Web en Html</h6>
+                            </div>
+                        </li>
+                    </ul>
+                </article><hr>
+
+                <article id="talk">
+                  <h2 class="title">Lest's talk</h2> 
+                  <div class="content content--talk">
+                    
+                    <div class="content__3">
+                      <div class="lets__talk">
+                        <img class="image_lets_talk" 
+                            src="img/analiz2.PNG" 
+                            alt="personal image">
+                        <form class="form">
+                          
+                          <h3 class="text1">Write me, and I will communicate with you.</h3>
+                          
+                          <label for="name">Name:</label>
+                          <input type="text" name="name" id="name" required="obligatorio">
+                          <label for="email">E-mail:</label>
+                          <input type="text" name="e-mail" id="e-mail" required="obligatorio">               
+                          <label for="message">Message:</label>
+                          <textarea rows="2" name="message" id="message" required="obligatorio" placeholder="Deja aquí tu comentario...">
+                          </textarea>
+                          
+                          <input class="button__send" type="submit" value="Send">
+                        </form>                       
+                      </div>
+                    </div>
+                  </div>
+                </article><hr>
+            </main>
+
+        <script>
+          function selectMenuOption(clickedOption) {
+        const menuOptions = document.getElementsByClassName("menu");
+        const className = "selected";
+  
+        for (let index = 0; index < menuOptions.length; index++) {
+          const option = menuOptions[index];
+          option.classList.remove(className);
+        }
+  
+        clickedOption.classList.add(className);
+      }
+        </script>
+   </body>
